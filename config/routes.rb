@@ -1,8 +1,8 @@
 Rails.application.routes.draw do
-  # get '/landing/index'
-  root 'landing#index'
+  get 'home', to: 'home#index'
+  # root 'landing#index'
   # Define your application routes per the DSL in https://guides.rubyonrails.org/routing.html
 
   # Defines the root path route ("/")
-  # root "articles#index"
+  root "home#index"
 end
